@@ -1,0 +1,314 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(./assets/banner\ \(4\).webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.nav{
+    width: 100%;
+    height: 15vh;
+}
+.logo{
+    margin: 60px 120px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.form_section{
+    width: 420px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+    
+form{
+    text-align: center;
+    margin: 10px;
+    padding:20px;
+}
+form h1{
+    font-size: 20px;
+    text-align: left;
+}
+.security{
+    color: rgb(241, 102, 52);
+}
+input{
+    width: 100%;
+    margin: 20px auto;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.btn{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(226, 46, 109);
+    color: #fff;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: 2px #fff;
+}
+.text_section{
+    margin-top: 110px;
+}
+.firstpara{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(241, 102, 52);
+    font-style: bold;
+}
+.firsth{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(50, 47, 47);
+}
+.secondpara{
+    margin-top: 20px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.b1{
+    margin-top: 20px;
+    width: 280px;
+    height: 100px;
+    background-color: #fff;
+    border:none;
+    border-radius: 20px;
+}
+.b2{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 280px;
+    height: 100px;
+    background-color: #fff;
+    border:none;
+    border-radius: 20px;
+    box-shadow: 10px rgb(227, 224, 224);
+}
+.cirtext{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.overview{
+    margin-top: 20px;
+    width:100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: contain;
+
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    object-fit: contain;
+    padding: 70px;
+}
+
+.over{
+    font-size: 34px;
+    margin-top: 0px;
+    
+}
+.line{
+    color: orangered;
+    font-size: 18px;
+    font-weight: 900;
+}
+.overviewpara{
+    margin-top: 20px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 2rem;
+}
+.whysection{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(235, 232, 190, 0.897);
+}
+.uppertext{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.lowertext{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.whyuspara{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.6rem;
+}
+.checklist{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2rem;
+}
+ul{
+    list-style: none;
+}
+
+  
+ul li:before{
+    content: '✓';
+    font-weight: 800;
+    color: green;
+}
+.callbtn{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#call{
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    font-size: 24px;
+    background-color: rgb(177, 28, 98);
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+}
+.benitext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.benefits{
+    width: 100%;
+    height: 40vh;
+}
+.newcontainer{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.code_review{
+    margin-top: 20px;
+    width:100%;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-color: rgb(227, 224, 224);
+    background-size: contain;
+
+}
+.contain2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    object-fit: contain;
+    padding: 70px;
+}
+
+.code{
+    font-size: 34px;
+    
+}
+.reviewpara{
+    margin-top: 20px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.faq-section{
+    width: 100%;
+    height: 50vh;
+    margin-top: 20px;
+    background-color: #fff;
+    
+    
+}
+.faqhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ques{
+    max-width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px auto;
+    padding: 15px;
+
+}
+.ans{
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: rgb(247, 249, 250);
+    border-radius: 5px;
+    margin: 5px auto;
+    padding: 15px;
+    line-height: 1.4rem;
+}
+.listitems{
+    padding-left: 40px;
+}
+footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(2, 2, 23);
+}
+.foothead{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foothead h3{
+    margin-top: 25px;
+    color: rgb(226, 46, 109);
+}
+.contactcontainer{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item{
+    color: #fff;
+    align-items: center;
+}
+.item p{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1rem;
+    word-spacing: 1px;
+}
